@@ -1,12 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Digital Clock</title>
 </head>
+
 <body>
-    DENEME
+
+    <div class="content">
+        <div class="clock-title">Online Clock</div>
+        <div class="time-now">
+            <div class="time-hour">
+                02
+            </div>
+            <div class="time-dot">
+                :
+            </div>
+            <div class="time-min">
+                16
+            </div>
+            <div class="time-dot">
+                :
+            </div>
+            <div class="time-sec">
+                30
+            </div>
+        </div>
+        <div class="content-mode">
+            <div class="buttons">
+                <button id="full-screen-button">
+                    Full Screen
+                </button>
+                <button id="exit-full-screen-button">
+                    Exit Full Screen
+                </button>
+            </div>
+            <div class="change-mode">
+                <div class="switch-button">
+                    <label class="switch">
+                        <input type="checkbox" id="checkbox" checked>
+                        <span class="change round"></span>
+                    </label>
+                </div>
+                <div class="which-mode">
+                    Dark Mode
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
 </body>
+
 </html>
